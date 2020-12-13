@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Callback</title>
+    <title>Redirecting..</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -11,7 +11,7 @@
         urlParams = new URLSearchParams(window.location.hash);
         window.localStorage.token = urlParams.get("access_token");
         setTimeout(function() {
-            window.location.replace("/site/settings.html");
+            window.location.replace("/dash.html");
         }, 1000)
     </script>
 </body>
